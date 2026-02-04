@@ -72,7 +72,7 @@ const Historia = () => {
       {
         nombre: "Jose Ferreira",
         rol: "Co-Fundador & Director Comercial y Merchandising",
-        imagen: "/fundadores/director.png",
+        imagen: "/fundadores/jose4.png",
         historia: "Especialista en marketing deportivo con MBA en Gestión Deportiva. Ha sido fundamental para conseguir patrocinios y posicionar la marca AFG Team en el mercado nacional e internacional.",
         frase: "Cada victoria en la pista es también una victoria de marca."
       },

@@ -16,10 +16,10 @@ const Inicio = () => {
     setPilotosPrincipales([
       {
         id: 1,
-        nombre: "Carlos Mendoza",
+        nombre: "Fernando Ferreira",
         edad: 28,
         titulo: "Campeón Nacional 2023",
-        foto: "piloto1.jpg",
+        foto: "fer.jpeg",
         logros: [
           "Campeón Nacional de Karts 2023",
           "3er lugar Copa Internacional 2022",
@@ -29,10 +29,10 @@ const Inicio = () => {
       },
       {
         id: 2,
-        nombre: "Ana Rodríguez",
+        nombre: "Jose Ferreira",
         edad: 25,
         titulo: "Subcampeona Continental",
-        foto: "piloto2.jpg",
+        foto: "jose.jpeg",
           logros: [
             "Subcampeona Continental 2023",
            "Mejor Piloto Femenina 2022",
@@ -49,7 +49,7 @@ const Inicio = () => {
         nombre: "William Arce",
         edad: 19,
         titulo: "Promesa del Karting",
-        foto: "williamarce.jpeg",
+        foto: "wil1.jpeg",
         logros: [
           "Campeón Juvenil Nacional 2023",
           "Revelación del Año 2022",
@@ -59,10 +59,10 @@ const Inicio = () => {
       },
       {
         id: 4,
-        nombre: "María Fernández",
+        nombre: "Manuel Godoy",
         edad: 17,
         titulo: "Novata Destacada 2023",
-        foto: "piloto4.jpg",
+        foto: "manu1.jpeg",
         logros: [
           "Mejor Novata 2023",
           "3 podios en su primera temporada",
@@ -199,7 +199,7 @@ const Inicio = () => {
             </div>
             <div className="staff-info">
               <h3>{entrenador?.nombre}</h3>
-              <p className="staff-rol">Entrenador Principal</p>
+              <p className="staff-rol">Entrenador Official</p>
               <p>{entrenador?.descripcion}</p>
             </div>
           </div>
@@ -209,7 +209,7 @@ const Inicio = () => {
             </div>
             <div className="staff-info">
               <h3>{directorTecnico?.nombre}</h3>
-              <p className="staff-rol">Director Técnico</p>
+              <p className="staff-rol">Director Ejecutivo</p>
               <p>{directorTecnico?.descripcion}</p>
             </div>
           </div>

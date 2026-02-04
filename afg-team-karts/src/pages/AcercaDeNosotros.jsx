@@ -28,33 +28,33 @@ const AcercaDeNosotros = () => {
     setMiembros([
       {
         id: 1,
-        nombre: "Alejandro Martínez",
-        rol: "Fundador & Director General",
-        foto: "director.jpg",
+        nombre: "Fernando Javier Ferreira",
+        rol: "Co-Fundador & Director Ejecutivo",
+        foto: "director.png",
         descripcion: "Empresario y apasionado del automovilismo desde niño. Con más de 20 años de experiencia en gestión deportiva.",
         experiencia: "Fundó AFG Team con la visión de crear un semillero de pilotos profesionales en Paraguay."
       },
       {
         id: 2,
-        nombre: "Fernando Rojas",
+        nombre: "Fernando Ferreira",
         rol: "Co-Fundador & Director Deportivo",
-        foto: "entrenador-perfil.jpg",
+        foto: "entrenador.png",
         descripcion: "Ex-piloto profesional con participación en competencias internacionales. Especialista en técnicas de conducción.",
         experiencia: "Compitió en categorías nacionales e internacionales durante 12 años antes de dedicarse a la formación."
       },
       {
         id: 3,
-        nombre: "Gabriela Silva",
-        rol: "Co-Fundadora & Directora de Marketing",
-        foto: "piloto2.jpg",
+        nombre: "Jose Ferreira",
+        rol: "Co-Fundadora & Director Comercial y Merchandising",
+        foto: "jose4.png",
         descripcion: "Profesional en marketing deportivo con especialización en patrocinios y desarrollo de marca.",
         experiencia: "Ha gestionado alianzas estratégicas con importantes marcas nacionales e internacionales."
       },
       {
         id: 4,
-        nombre: "Roberto Álvarez",
-        rol: "Entrenador Principal",
-        foto: "entrenador.jpg",
+        nombre: "William Arce",
+        rol: "Co-Fundador & Director de Tecnologia y Marketing",
+        foto: "william3.png",
         descripcion: "Licenciado en Educación Física con especialización en entrenamiento deportivo de alto rendimiento.",
         experiencia: "15 años entrenando pilotos de diversas categorías, con 8 campeones nacionales formados bajo su tutela."
       }

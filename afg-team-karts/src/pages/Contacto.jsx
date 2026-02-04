@@ -172,7 +172,7 @@ const Contacto = () => {
         </div>
       </section>
       
-      <section className="mapa-ubicacion">
+      {/* <section className="mapa-ubicacion">
         <h3 className="section-title">Nuestra Ubicación</h3>
         <div className="mapa-container">
           <div className="mapa-placeholder">
@@ -194,7 +194,7 @@ const Contacto = () => {
             <p className="visita-info">Las visitas deben ser coordinadas con anticipación.</p>
           </div>
         </div>
-      </section>
+      </section> */}
       
       <section className="redes-sociales">
         <h3 className="section-title">Síguenos en Redes Sociales</h3>
@@ -229,7 +229,7 @@ const Contacto = () => {
         </div>
       </section>
       
-      <section className="contacto-emergencia">
+      {/* <section className="contacto-emergencia">
         <div className="emergencia-content">
           <div className="emergencia-icon">🚨</div>
           <div className="emergencia-info">
@@ -238,7 +238,7 @@ const Contacto = () => {
             <p>Disponible solo para urgencias relacionadas con competencias activas.</p>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

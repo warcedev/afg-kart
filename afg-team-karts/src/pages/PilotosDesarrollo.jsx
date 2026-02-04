@@ -64,7 +64,7 @@ const PilotosDesarrollo = () => {
 
   return (
     <div className="pilotos-desarrollo">
-      <section className="promesa-presentacion">
+      {/* <section className="promesa-presentacion">
         <h2 className="section-title">Nuestra Promesa para 2027</h2>
         <div className="promesa-content">
           <div className="promesa-imagen">
@@ -111,9 +111,9 @@ const PilotosDesarrollo = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="plan-desarrollo">
+      {/* <section className="plan-desarrollo">
         <h2 className="section-title">Plan de Desarrollo 2024-2027</h2>
         <div className="plan-content">
           <div className="plan-proyeccion">
@@ -155,7 +155,7 @@ const PilotosDesarrollo = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="programa-desarrollo">
         <h2 className="section-title">Programa de Desarrollo AFG</h2>

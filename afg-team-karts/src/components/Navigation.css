@@ -1,0 +1,44 @@
+/* Navigation */
+.navigation {
+  background-color: var(--color-blanco);
+  box-shadow: 0 2px 10px var(--color-sombra);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  flex: 1;
+}
+
+.nav-button {
+  width: 100%;
+  padding: 1rem 0;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-texto);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: rgba(106, 13, 173, 0.05);
+  color: var(--color-primario);
+}
+
+.nav-button.active {
+  color: var(--color-primario);
+  border-bottom: 3px solid var(--color-primario);
+  background-color: rgba(106, 13, 173, 0.1);
+}

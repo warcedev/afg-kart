@@ -1,0 +1,88 @@
+.piloto-card {
+  background-color: var(--color-blanco);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px var(--color-sombra);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.piloto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.piloto-card.principal {
+  border-top: 5px solid var(--color-piloto-principal);
+}
+
+.piloto-card.novato {
+  border-top: 5px solid var(--color-piloto-novato);
+}
+
+.piloto-img-container {
+  height: 250px;
+  overflow: hidden;
+}
+
+.piloto-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.piloto-card:hover .piloto-img {
+  transform: scale(1.05);
+}
+
+.piloto-info {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.piloto-nombre {
+  color: var(--color-primario);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.piloto-edad {
+  color: var(--color-secundario-oscuro);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.piloto-titulo {
+  color: var(--color-primario-oscuro);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-borde);
+}
+
+.piloto-logros h4 {
+  color: var(--color-primario);
+  margin-bottom: 0.5rem;
+}
+
+.piloto-logros ul {
+  list-style-position: inside;
+  margin-bottom: 1rem;
+}
+
+.piloto-logros li {
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.piloto-descripcion {
+  margin-top: auto;
+  font-style: italic;
+  color: var(--color-texto);
+  line-height: 1.5;
+}

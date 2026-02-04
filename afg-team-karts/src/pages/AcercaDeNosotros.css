@@ -1,0 +1,168 @@
+.acerca-de-nosotros {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Historia */
+.historia-equipo {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.historia-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.historia-texto p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.historia-imagen {
+  text-align: center;
+}
+
+.imagen-equipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagen-desc {
+  margin-top: 1rem;
+  font-style: italic;
+  color: var(--color-secundario-oscuro);
+}
+
+/* Valores */
+.valores-equipo {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.valores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.valor-card {
+  background: linear-gradient(135deg, var(--color-primario), var(--color-primario-oscuro));
+  color: var(--color-blanco);
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.valor-card:hover {
+  transform: translateY(-5px);
+}
+
+.valor-card h3 {
+  color: var(--color-secundario);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+/* Miembros */
+.miembros-equipo {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.miembros-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Logros */
+.logros-equipo {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.logros-timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.logros-timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--color-primario);
+  transform: translateX(-50%);
+}
+
+.logro-item {
+  display: flex;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.logro-item:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.logro-año {
+  flex: 0 0 100px;
+  background-color: var(--color-primario);
+  color: var(--color-blanco);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.logro-desc {
+  flex: 1;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin: 0 1rem;
+  box-shadow: 0 3px 10px var(--color-sombra);
+}
+
+.logro-desc h3 {
+  color: var(--color-primario);
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .historia-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .logros-timeline::before {
+    left: 30px;
+  }
+  
+  .logro-item {
+    flex-direction: row !important;
+    align-items: flex-start;
+  }
+  
+  .logro-año {
+    flex: 0 0 80px;
+  }
+}

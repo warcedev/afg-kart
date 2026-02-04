@@ -1,0 +1,255 @@
+.pilotos-desarrollo {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Promesa */
+.promesa-presentacion {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.promesa-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+}
+
+.promesa-imagen {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.piloto-promesa-img {
+  text-align: center;
+}
+
+.foto-desc {
+  margin-top: 1rem;
+  font-style: italic;
+  color: var(--color-secundario-oscuro);
+}
+
+.promesa-datos {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.promesa-datos h3 {
+  color: var(--color-primario);
+  margin-bottom: 1rem;
+}
+
+.promesa-datos ul {
+  list-style: none;
+}
+
+.promesa-datos li {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-borde);
+}
+
+.promesa-datos strong {
+  color: var(--color-primario);
+}
+
+.promesa-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.promesa-nombre {
+  color: var(--color-primario);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.promesa-descripcion p {
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.promesa-logros h4 {
+  color: var(--color-primario);
+  margin-bottom: 1rem;
+}
+
+.promesa-logros ul {
+  list-style-position: inside;
+  margin-bottom: 1rem;
+}
+
+.promesa-logros li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+.promesa-caracteristicas h4 {
+  color: var(--color-primario);
+  margin-bottom: 1rem;
+}
+
+.caracteristicas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.caracteristica-card {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.caracteristica-card:hover {
+  transform: translateY(-3px);
+  background-color: #e8e8e8;
+}
+
+.caracteristica-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-primario);
+}
+
+/* Plan de desarrollo */
+.plan-desarrollo {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.plan-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.plan-proyeccion h3 {
+  color: var(--color-primario);
+  margin-bottom: 1rem;
+}
+
+.plan-proyeccion p {
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.plan-timeline h3 {
+  color: var(--color-primario);
+  margin-bottom: 1rem;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: var(--color-primario);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.4rem;
+  top: 0.5rem;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--color-primario);
+  border: 3px solid var(--color-blanco);
+  box-shadow: 0 0 0 3px var(--color-primario);
+}
+
+.timeline-año {
+  font-weight: 600;
+  color: var(--color-primario);
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.timeline-desc h4 {
+  color: var(--color-primario-oscuro);
+  margin-bottom: 0.5rem;
+}
+
+/* Programa de desarrollo */
+.programa-desarrollo {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.programa-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.programa-card {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 5px solid var(--color-primario);
+}
+
+.programa-card h3 {
+  color: var(--color-primario);
+  margin-bottom: 1rem;
+}
+
+.programa-card ul {
+  list-style-position: inside;
+}
+
+.programa-card li {
+  margin-bottom: 0.5rem;
+}
+
+.programa-cta {
+  text-align: center;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, var(--color-primario), var(--color-primario-oscuro));
+  color: var(--color-blanco);
+  border-radius: 10px;
+}
+
+.programa-cta a {
+  color: var(--color-secundario);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.programa-cta a:hover {
+  color: var(--color-blanco);
+}
+
+@media (max-width: 768px) {
+  .promesa-content, .plan-content {
+    grid-template-columns: 1fr;
+  }
+}

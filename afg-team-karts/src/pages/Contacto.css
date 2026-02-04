@@ -1,0 +1,299 @@
+.contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Información de contacto */
+.informacion-contacto {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.contacto-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.contacto-info h3 {
+  color: var(--color-primario);
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.info-icon {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, var(--color-primario), var(--color-primario-oscuro));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-blanco);
+  font-size: 1.5rem;
+}
+
+.info-content h4 {
+  color: var(--color-primario);
+  margin-bottom: 0.5rem;
+}
+
+.info-content p {
+  margin-bottom: 0.25rem;
+}
+
+.whatsapp-link, .youtube-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--color-primario);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.whatsapp-link:hover, .youtube-link:hover {
+  text-decoration: underline;
+  color: var(--color-primario-oscuro);
+}
+
+.horario-atencion {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.horario-atencion h4 {
+  color: var(--color-primario);
+  margin-bottom: 1rem;
+}
+
+/* Formulario */
+.contacto-formulario h3 {
+  color: var(--color-primario);
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--color-primario);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 0.75rem;
+  border: 2px solid var(--color-borde);
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-primario);
+}
+
+.btn-enviar {
+  background: linear-gradient(135deg, var(--color-primario), var(--color-primario-oscuro));
+  color: var(--color-blanco);
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-enviar:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(106, 13, 173, 0.3);
+}
+
+/* Mapa */
+.mapa-ubicacion {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.mapa-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.mapa-placeholder {
+  height: 300px;
+  background: linear-gradient(135deg, #6a0dad, #4b0082);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-blanco);
+}
+
+.mapa-content {
+  text-align: center;
+}
+
+.mapa-marker {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.mapa-info h4 {
+  color: var(--color-primario);
+  margin-bottom: 1rem;
+}
+
+.mapa-info ul {
+  list-style-position: inside;
+  margin-bottom: 1rem;
+}
+
+.mapa-info li {
+  margin-bottom: 0.5rem;
+}
+
+.visita-info {
+  font-style: italic;
+  color: var(--color-secundario-oscuro);
+}
+
+/* Redes sociales */
+.redes-sociales {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.redes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.red-social-card {
+  display: block;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-texto);
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.red-social-card:hover {
+  transform: translateY(-5px);
+  background-color: #f0f0f0;
+}
+
+.red-social-card.instagram:hover {
+  background-color: #E4405F;
+  color: white;
+}
+
+.red-social-card.facebook:hover {
+  background-color: #1877F2;
+  color: white;
+}
+
+.red-social-card.youtube:hover {
+  background-color: #FF0000;
+  color: white;
+}
+
+.red-social-card.twitter:hover {
+  background-color: #1DA1F2;
+  color: white;
+}
+
+.red-social-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.red-social-card h4 {
+  margin-bottom: 0.5rem;
+  color: var(--color-primario);
+}
+
+.red-social-card:hover h4 {
+  color: white;
+}
+
+/* Contacto emergencia */
+.contacto-emergencia {
+  background-color: #fff3cd;
+  border: 2px solid #ffeaa7;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.emergencia-content {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.emergencia-icon {
+  flex-shrink: 0;
+  font-size: 2.5rem;
+}
+
+.emergencia-info h4 {
+  color: #856404;
+  margin-bottom: 0.5rem;
+}
+
+.emergencia-info p {
+  color: #856404;
+}
+
+@media (max-width: 768px) {
+  .contacto-content, .mapa-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .info-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .emergencia-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}

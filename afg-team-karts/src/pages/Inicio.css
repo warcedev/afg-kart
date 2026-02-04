@@ -1,0 +1,163 @@
+.inicio {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Mensaje del equipo */
+.mensaje-equipo {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.mensaje-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mensaje-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--color-texto);
+  text-align: center;
+  font-style: italic;
+  padding: 0 1rem;
+}
+
+.mision-vision {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.mision, .vision {
+  background: linear-gradient(135deg, var(--color-primario), var(--color-primario-oscuro));
+  color: var(--color-blanco);
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.mision h3, .vision h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-secundario);
+}
+
+/* Por qué corremos */
+.porque-corremos {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.razones {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.razon {
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease;
+}
+
+.razon:hover {
+  transform: translateY(-5px);
+  background-color: #f0f0f0;
+}
+
+.razon-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.razon h3 {
+  color: var(--color-primario);
+  margin-bottom: 0.5rem;
+}
+
+/* Pilotos */
+.pilotos-principales, .pilotos-novatos {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.pilotos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* Staff técnico */
+.staff-tecnico {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.staff-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease;
+}
+
+.staff-card:hover {
+  transform: translateY(-5px);
+}
+
+.staff-img-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  border: 3px solid var(--color-secundario);
+}
+
+.staff-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.staff-rol {
+  color: var(--color-primario);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Patrocinadores */
+.patrocinadores {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.patrocinadores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}

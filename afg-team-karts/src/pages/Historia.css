@@ -1,0 +1,518 @@
+.historia {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* Hero Section */
+.hero-historia {
+  background: linear-gradient(135deg, var(--color-primario), var(--color-primario-oscuro));
+  color: var(--color-blanco);
+  padding: 4rem 2rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--color-blanco);
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: var(--color-secundario);
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--color-secundario);
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Línea de Tiempo */
+.linea-tiempo {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.timeline-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 30px;
+}
+
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, var(--color-primario), var(--color-secundario));
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--color-primario);
+  border: 3px solid var(--color-blanco);
+  box-shadow: 0 0 0 3px var(--color-primario);
+}
+
+.timeline-item.fundacion::before {
+  background-color: #ff6b6b;
+}
+
+.timeline-item.competencia::before {
+  background-color: #4ecdc4;
+}
+
+.timeline-item.logro::before {
+  background-color: #ffe66d;
+}
+
+.timeline-item.expansion::before {
+  background-color: #1a936f;
+}
+
+.timeline-item.desarrollo::before {
+  background-color: #9b5de5;
+}
+
+.timeline-year {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-primario);
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--color-primario);
+}
+
+.timeline-content h3 {
+  color: var(--color-primario);
+  margin-bottom: 1rem;
+}
+
+.timeline-imagen {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.placeholder-historia {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(135deg, var(--color-secundario), #e0e0e0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+/* Fundadores */
+.fundadores {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--color-secundario-oscuro);
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.fundadores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.fundador-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.fundador-card:hover {
+  transform: translateY(-5px);
+}
+
+.fundador-img-container {
+  height: 280px;
+  background: linear-gradient(135deg, var(--color-primario), var(--color-primario-oscuro));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.placeholder-fundador {
+  font-size: 5rem;
+  color: var(--color-blanco);
+}
+
+.fundador-info {
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.fundador-rol {
+  color: var(--color-secundario-oscuro);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-borde);
+}
+
+.fundador-historia {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.fundador-frase {
+  background-color: rgba(106, 13, 173, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  font-style: italic;
+  color: var(--color-primario);
+  border-left: 3px solid var(--color-primario);
+}
+
+.comillas {
+  font-size: 1.5rem;
+  color: var(--color-primario);
+  font-weight: bold;
+}
+
+/* Filosofía */
+.filosofia {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.filosofia-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.pilares {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.pilar {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.pilar:hover {
+  transform: translateY(-5px);
+  background-color: #f0f0f0;
+}
+
+.pilar-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.pilar h4 {
+  color: var(--color-primario);
+  margin-bottom: 0.5rem;
+}
+
+/* Momentos Destacados */
+.momentos-destacados {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.momentos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.momento-card {
+  background: linear-gradient(135deg, var(--color-primario), var(--color-primario-oscuro));
+  color: var(--color-blanco);
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.momento-card:hover {
+  transform: translateY(-5px);
+}
+
+.momento-fecha {
+  background-color: var(--color-secundario);
+  color: var(--color-primario);
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.momento-card h3 {
+  color: var(--color-blanco);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.momento-impacto {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-style: italic;
+}
+
+/* Visión a Futuro */
+.vision-futuro {
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.vision-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.vision-item {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border-top: 5px solid var(--color-primario);
+}
+
+.vision-item h3 {
+  color: var(--color-primario);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Galería Histórica - Versión con imágenes más anchas */
+.galeria-historica {
+  background-color: var(--color-blanco);
+  padding: 2.5rem; /* Aumentado para más espacio */
+  border-radius: 12px; /* Bordes más redondeados */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+  margin: 0 auto; /* Centrado */
+  max-width: 1400px; /* Ancho máximo para pantallas grandes */
+}
+
+.galeria-grid {
+  display: grid;
+  /* Cambiado a 2 columnas en lugar de auto-fill para más control */
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Columnas más anchas */
+  gap: 2rem; /* Más espacio entre elementos */
+}
+
+.galeria-item {
+  text-align: center;
+  transition: all 0.4s ease; /* Transición más suave */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f9f9f9; /* Fondo sutil para cada item */
+  padding-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Sombra individual */
+}
+
+.galeria-item:hover {
+  transform: translateY(-8px); /* Más elevación al hacer hover */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Sombra más intensa en hover */
+  background-color: #f5f5f5;
+}
+
+.galeria-img-container {
+  width: 100%;
+  height: 280px; /* Altura aumentada */
+  border-radius: 10px 10px 0 0; /* Solo redondeado arriba */
+  overflow: hidden;
+  margin-bottom: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.galeria-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Mantiene proporciones */
+  transition: transform 0.7s ease; /* Transición más lenta para efecto más suave */
+}
+
+.galeria-item:hover .galeria-img {
+  transform: scale(1.08); /* Zoom más sutil */
+}
+
+.galeria-item p {
+  font-size: 1rem; /* Texto más grande */
+  color: var(--color-texto);
+  font-weight: 500; /* Peso normal */
+  margin-top: 1rem; /* Más espacio arriba */
+  padding: 0 1rem; /* Más padding lateral */
+  line-height: 1.4;
+}
+
+.placeholder-galeria {
+  width: 100%;
+  height: 280px; /* Altura igual a las imágenes */
+  background: linear-gradient(135deg, var(--color-secundario), #e0e0e0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem; /* Emoji más grande */
+  border-radius: 10px 10px 0 0;
+  color: var(--color-primario);
+}
+
+/* Para pantallas muy grandes (escritorio grande) */
+@media (min-width: 1200px) {
+  .galeria-grid {
+    grid-template-columns: repeat(auto-fit, minmax(1050px, 1fr)); /* Aún más ancho */
+    gap: 2.5rem;
+  }
+  
+  .galeria-img-container {
+    height: 820px; /* Más alto en pantallas grandes */
+  }
+  
+  .placeholder-galeria {
+    height: 320px;
+  }
+}
+
+/* Para tablets */
+@media (max-width: 768px) {
+  .galeria-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Un poco más angosto */
+    gap: 1.5rem;
+  }
+  
+  .galeria-img-container {
+    height: 250px; /* Altura ajustada para móvil */
+  }
+  
+  .placeholder-galeria {
+    height: 250px;
+  }
+  
+  .galeria-historia {
+    padding: 1.5rem; /* Menos padding en móvil */
+  }
+}
+
+/* Para móviles pequeños */
+@media (max-width: 480px) {
+  .galeria-grid {
+    grid-template-columns: 1fr; /* Una sola columna */
+    gap: 1.2rem;
+  }
+  
+  .galeria-img-container {
+    height: 220px;
+  }
+  
+  .placeholder-galeria {
+    height: 220px;
+    font-size: 3rem;
+  }
+  
+  .galeria-item p {
+    font-size: 0.95rem;
+    padding: 0 0.8rem;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-stats {
+    gap: 1.5rem;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+  }
+  
+  .filosofia-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .pilares {
+    grid-template-columns: 1fr;
+  }
+  
+  .timeline-container {
+    padding-left: 20px;
+  }
+}

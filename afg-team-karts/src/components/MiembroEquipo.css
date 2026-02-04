@@ -1,0 +1,75 @@
+.miembro-equipo {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  align-items: center;
+  background-color: var(--color-blanco);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px var(--color-sombra);
+}
+
+.miembro-equipo.izquierda {
+  flex-direction: row;
+}
+
+.miembro-equipo.derecha {
+  flex-direction: row-reverse;
+}
+
+.miembro-img-container {
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid var(--color-secundario);
+}
+
+.miembro-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.miembro-info {
+  flex: 1;
+}
+
+.miembro-nombre {
+  color: var(--color-primario);
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.miembro-rol {
+  color: var(--color-secundario-oscuro);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-borde);
+}
+
+.miembro-descripcion {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.miembro-experiencia {
+  font-style: italic;
+  color: var(--color-primario-claro);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .miembro-equipo {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  
+  .miembro-img-container {
+    width: 150px;
+    height: 150px;
+  }
+}

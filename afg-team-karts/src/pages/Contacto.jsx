@@ -43,9 +43,9 @@ const Contacto = () => {
               <div className="info-icon">📞</div>
               <div className="info-content">
                 <h4>Teléfono / WhatsApp</h4>
-                <p>+595 981 123 456</p>
+                <p>+595 982 375 298</p>
                 <a 
-                  href="https://wa.me/595981123456" 
+                  href="https://wa.me/595982375298" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="whatsapp-link"
@@ -59,12 +59,11 @@ const Contacto = () => {
               <div className="info-icon">✉️</div>
               <div className="info-content">
                 <h4>Correo Electrónico</h4>
-                <p>contacto@afgteam.com.py</p>
-                <p>info@afgteam.com.py</p>
+                <p>afg.racing@outlook.com</p>
               </div>
             </div>
             
-            <div className="info-item">
+            {/* <div className="info-item">
               <div className="info-icon">📍</div>
               <div className="info-content">
                 <h4>Ubicación</h4>
@@ -72,19 +71,19 @@ const Contacto = () => {
                 <p>Av. del Karting 1234</p>
                 <p>Asunción, Paraguay</p>
               </div>
-            </div>
+            </div> */}
             
             <div className="info-item">
               <div className="info-icon">▶️</div>
               <div className="info-content">
                 <h4>Canal de YouTube</h4>
                 <a 
-                  href="https://youtube.com/@afgteam" 
+                  href="https://www.youtube.com/channel/UCGjm5RLJYLC1UcnMcJYOy2g" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="youtube-link"
                 >
-                  youtube.com/@afgteam
+                  youtube.com/@AGFTEAM-PY
                 </a>
                 <p>Sigue nuestras carreras en vivo y highlights</p>
               </div>
@@ -199,21 +198,21 @@ const Contacto = () => {
       <section className="redes-sociales">
         <h3 className="section-title">Síguenos en Redes Sociales</h3>
         <div className="redes-grid">
-          <a href="#" className="red-social-card instagram">
+          <a href="https://www.instagram.com/afg.racingteam/" className="red-social-card instagram">
             <div className="red-social-icon">📷</div>
             <h4>Instagram</h4>
             <p>@afgteam.py</p>
             <p>Fotos y videos detrás de cámaras</p>
           </a>
           
-          <a href="#" className="red-social-card facebook">
+          {/* <a href="#" className="red-social-card facebook">
             <div className="red-social-icon">📘</div>
             <h4>Facebook</h4>
             <p>AFG Team Oficial</p>
             <p>Noticias y actualizaciones</p>
-          </a>
+          </a> */}
           
-          <a href="#" className="red-social-card youtube">
+          <a href="https://www.youtube.com/channel/UCGjm5RLJYLC1UcnMcJYOy2g" className="red-social-card youtube">
             <div className="red-social-icon">▶️</div>
             <h4>YouTube</h4>
             <p>AFG Team Racing</p>

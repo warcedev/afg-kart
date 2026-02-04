@@ -9,19 +9,14 @@ const AcercaDeNosotros = () => {
   useEffect(() => {
     // Historia del equipo
     setHistoria(`
-      AFG Team nació en 2015 en Asunción, Paraguay, de la mano de tres apasionados 
-      del automovilismo: Alejandro, Fernando y Gabriela (de cuyas iniciales proviene 
-      nuestro nombre). Lo que comenzó como un pequeño proyecto entre amigos se ha 
-      convertido en uno de los equipos más respetados del karting paraguayo.
       
-      Nuestro primer kart fue comprado con grandes sacrificios, pero con aún mayores 
-      sueños. A lo largo de los años, hemos crecido no solo en infraestructura, sino 
-      también en experiencia y logros. Hoy contamos con 4 karts de competencia, un 
-      taller completamente equipado y un equipo humano excepcional.
-      
-      Nuestra filosofía siempre ha sido clara: desarrollar talento paraguayo para 
-      competir al más alto nivel, manteniendo siempre los valores del deporte, 
-      la disciplina y el trabajo en equipo.
+      AFG Team nació en 2025 en Asunción, Paraguay, de la mano de cuatro apasionados del automovilismo: 
+      Fernando Javier Ferreira, Fernando Ferreira, José Ferreira y William Arce.
+      Lo que comenzó como un sueño compartido entre amigos y familiares, 
+      hoy se consolida como un proyecto serio y dedicado a formar y competir en el automovilismo nacional.
+      Nuestro primer kart llegara con esfuerzo, determinación y una visión clara: 
+      construir desde Paraguay un equipo con proyección y profesionalismo.
+
     `)
 
     // Datos de los miembros del equipo
@@ -40,7 +35,7 @@ const AcercaDeNosotros = () => {
         rol: "Co-Fundador & Director Deportivo",
         foto: "entrenador.png",
         descripcion: "Ex-piloto profesional con participación en competencias internacionales. Especialista en técnicas de conducción.",
-        experiencia: "Compitió en categorías nacionales e internacionales durante 12 años antes de dedicarse a la formación."
+        experiencia: "Compitió en categorías nacionales e internacionales durante 16 años antes de dedicarse a la formación."
       },
       {
         id: 3,
@@ -72,7 +67,7 @@ const AcercaDeNosotros = () => {
           <div className="historia-imagen">
             <div className="imagen-equipo">
               <div className="placeholder-imagen">🏆</div>
-              <p className="imagen-desc">Primer campeonato ganado por AFG Team (2018)</p>
+              {/* <p className="imagen-desc">Primer campeonato ganado por AFG Team (2018)</p> */}
             </div>
           </div>
         </div>
@@ -113,7 +108,7 @@ const AcercaDeNosotros = () => {
         </div>
       </section>
 
-      <section className="logros-equipo">
+      {/* <section className="logros-equipo">
         <h2 className="section-title">Logros Destacados</h2>
         <div className="logros-timeline">
           <div className="logro-item">
@@ -145,7 +140,7 @@ const AcercaDeNosotros = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

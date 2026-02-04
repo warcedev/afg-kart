@@ -66,21 +66,21 @@ const Historia = () => {
         nombre: "Fernando Ferreira",
         rol: "Co-Fundador & Director Deportivo",
         imagen: "/fundadores/entrenador.png",
-        historia: "Ex-piloto profesional con 12 años de experiencia en competencias internacionales. Tras retirarse, decidió dedicarse a formar nuevas generaciones de pilotos. Su conocimiento técnico es invaluable para el equipo.",
+        historia: "Ex-piloto profesional con 16 años de experiencia en competencias internacionales, donde logró mas de 14 victorias. Su carrera, que comenzó en el karting en 2010, le proporcionó un conocimiento técnico invaluable que ahora dedica a formar a las nuevas generaciones de pilotos tras su retirada.",
         frase: "La técnica sin pasión es mecánica, la pasión sin técnica es peligrosa."
       },
       {
         nombre: "Jose Ferreira",
         rol: "Co-Fundador & Director Comercial y Merchandising",
         imagen: "/fundadores/jose4.png",
-        historia: "Especialista en marketing deportivo con MBA en Gestión Deportiva. Ha sido fundamental para conseguir patrocinios y posicionar la marca AFG Team en el mercado nacional e internacional.",
+        historia: "clave en la captación de patrocinios y el desarrollo de líneas de merchandising que han escalado la rentabilidad y presencia de la marca AFG Team.",
         frase: "Cada victoria en la pista es también una victoria de marca."
       },
       {
         nombre: "William arce",
         rol: "Co-Fundador & Director de Tecnologia y Marketing",
         imagen: "/fundadores/william3.png",
-        historia: "Especialista en marketing deportivo con MBA en Gestión Deportiva. Ha sido fundamental para conseguir patrocinios y posicionar la marca AFG Team en el mercado nacional e internacional.",
+        historia: "Especialista en marketing deportivo con foco tecnológico (MBA), arquitecto de la presencia digital y las alianzas estratégicas del AFG Team en el mercado global.",
         frase: "Cada victoria en la pista es también una victoria de marca."
       }
     ])
@@ -122,20 +122,20 @@ const Historia = () => {
           <h1 className="hero-title">Nuestra Historia</h1>
           <p className="hero-subtitle">De un sueño a una realidad que compite internacionalmente</p>
           <div className="hero-stats">
-            <div className="stat">
-              <div className="stat-number">8</div>
+            {/* <div className="stat">
+              <div className="stat-number">6</div>
               <div className="stat-label">Años de Historia</div>
-            </div>
+            </div> */}
             <div className="stat">
-              <div className="stat-number">24</div>
+              <div className="stat-number">16</div>
               <div className="stat-label">Títulos Nacionales</div>
             </div>
-            <div className="stat">
+            {/* <div className="stat">
               <div className="stat-number">15+</div>
               <div className="stat-label">Pilotos Formados</div>
-            </div>
+            </div> */}
             <div className="stat">
-              <div className="stat-number">50+</div>
+              <div className="stat-number">35+</div>
               <div className="stat-label">Competencias</div>
             </div>
           </div>
@@ -256,19 +256,19 @@ const Historia = () => {
           <h2 className="section-title">Mirando al Futuro</h2>
           <div className="vision-grid">
             <div className="vision-item">
-              <h3>2025</h3>
+              <h3>2027</h3>
               <p>Expansión a categorías superiores de automovilismo nacional.</p>
             </div>
             <div className="vision-item">
-              <h3>2026</h3>
+              <h3>2028</h3>
               <p>Participación estable en competencias sudamericanas.</p>
             </div>
             <div className="vision-item">
-              <h3>2027</h3>
+              <h3>2029</h3>
               <p>Formación del primer piloto paraguayo para competencias internacionales profesionales.</p>
             </div>
             <div className="vision-item">
-              <h3>2030</h3>
+              <h3>2032</h3>
               <p>Ser referente continental en formación de pilotos profesionales.</p>
             </div>
           </div>

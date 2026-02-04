@@ -18,27 +18,27 @@ const Inicio = () => {
         id: 1,
         nombre: "Fernando Ferreira",
         edad: 28,
-        titulo: "Campeón Nacional 2023",
+        titulo: "Campeón Nacional",
         foto: "fer.jpeg",
         logros: [
-          "Campeón Nacional de Karts 2023",
-          "3er lugar Copa Internacional 2022",
-          "Récord de vuelta en Autódromo Paraguay"
+          "Campeón Nacional de Karts 2016",
+          "3er lugar Copa Internacional 2013",
+          "Récord de vuelta en kartodromo Paraguay"
         ],
         descripcion: "Piloto con más de 10 años de experiencia en competencias nacionales e internacionales. Especialista en pistas técnicas."
       },
       {
         id: 2,
         nombre: "Jose Ferreira",
-        edad: 25,
-        titulo: "Subcampeona Continental",
+        edad: 20,
+        titulo: "Campeon sudamericano",
         foto: "jose.jpeg",
           logros: [
-            "Subcampeona Continental 2023",
-           "Mejor Piloto Femenina 2022",
+            "Campeon sudamericano F1 the game 2022",
+           "Mejor tiempo pista superkart, Mariano R. Alonso, Paraguay",
             "5 victorias en temporada 2023"
           ],
-        descripcion: "Una de las pilotos más prometedoras del continente, conocida por su agresividad controlada y precisión en curvas."
+        descripcion: "Uno de las pilotos más prometedores de la parrilla, impulsando su debut como piloto principal, conocido por su agresividad controlada y precisión en curvas."
       }
     ])
 
@@ -51,20 +51,18 @@ const Inicio = () => {
         titulo: "Promesa del Karting",
         foto: "wil1.jpeg",
         logros: [
-          "Campeón Juvenil Nacional 2023",
-          "Revelación del Año 2022",
-          "2 victorias en categoría junior"
+          "Domina correr bajo lluvia",
+          "Avanzó 7 posiciones en una carrera bajo condiciones climáticas difíciles"
         ],
-        descripcion: "Joven talento que demostró habilidades excepcionales desde su debut. Futura estrella del automovilismo."
+        descripcion: "Joven talento que demostró habilidades excepcionales desde su debut."
       },
       {
         id: 4,
         nombre: "Manuel Godoy",
-        edad: 17,
-        titulo: "Novata Destacada 2023",
+        edad: 20,
+        titulo: "Novato Destacado 2025",
         foto: "manu1.jpeg",
         logros: [
-          "Mejor Novata 2023",
           "3 podios en su primera temporada",
           "Premio al Espíritu Deportivo"
         ],
@@ -108,7 +106,7 @@ const Inicio = () => {
     setEntrenador({
       nombre: "Fernando Ferreria",
       foto: "entrenador.png",  // ← .jpeg minúsculas
-      descripcion: "Entrenador con 15 años de experiencia en desarrollo de pilotos. Ex-piloto profesional con múltiples títulos nacionales."
+      descripcion: "Entrenador con 10 años de experiencia en desarrollo de pilotos. Ex-piloto profesional con múltiples títulos nacionales."
     })
 
     // Datos del director técnico
@@ -217,7 +215,7 @@ const Inicio = () => {
       </section>
 
       {/* Patrocinadores */}
-      <section className="patrocinadores">
+      {/* <section className="patrocinadores">
         <h2 className="section-title">Nuestros Patrocinadores</h2>
         <div className="patrocinadores-grid">
           {patrocinadores.map(patrocinador => (
@@ -227,7 +225,7 @@ const Inicio = () => {
 🏆
 
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

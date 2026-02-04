@@ -167,13 +167,13 @@ const PilotosDesarrollo = () => {
           <div className="programa-card">
             <h3>Requisitos de Ingreso</h3>
             <ul>
-              <li>Edad: 13-16 años</li>
+              <li>Edad: 15-18 años</li>
               <li>Compromiso y disciplina demostrables</li>
               <li>Rendimiento académico satisfactorio</li>
               <li>Aprobación en pruebas técnicas y físicas</li>
             </ul>
           </div>
-          <div className="programa-card">
+          {/* <div className="programa-card">
             <h3>Beneficios para los Pilotos</h3>
             <ul>
               <li>Entrenamiento profesional gratuito</li>
@@ -181,7 +181,7 @@ const PilotosDesarrollo = () => {
               <li>Participación en competencias</li>
               <li>Apoyo educativo y nutricional</li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="programa-cta">
           <p>¿Conoces a un joven talento? <a href="#contacto">Contáctanos</a> para evaluar su ingreso al programa.</p>
